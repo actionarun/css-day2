@@ -5,7 +5,9 @@
     border: 2px solid black;
     margin: 50px;
     position: relative;
+    background-image: linear-gradient(aqua,white);
 
+    
     
 }
 .sircle{
