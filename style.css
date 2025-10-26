@@ -1,11 +1,14 @@
-.box{
+.countiner{
     height: 600px;
     width: 100px;
     padding: 50px;
     border: 2px solid black;
+    margin: 50px;
+    position: relative;
+
     
 }
-.box1{
+.sircle{
     height: 50px;
     width: 50px;
     border: 2px solid black;
@@ -14,7 +17,7 @@
     background-color: lightcoral;
     
 }
-.box2{
+.box1{
      height: 50px;
     width: 50px;
     border: 2px solid black;
@@ -23,4 +26,24 @@
     background-color: lightcoral;
     text-align: center;
     
+}
+.fixed{
+    position: fixed;
+    top: 1px;
+    left: 10px;
+}
+
+.sticky{
+    position: sticky;
+    top: 2px;
+}
+.absolute{
+    position: absolute;
+    top: 1px;
+
+}
+
+.relative{
+    position: relative;
+    left: 10px;
 }
